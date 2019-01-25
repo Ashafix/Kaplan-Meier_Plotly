@@ -9,7 +9,7 @@ Usage
 =====
 
 ```
-plot = csv_to_kaplan_meier_plot'http://www-eio.upc.edu/~pau/cms/rdata/csv/survival/colon.csv', 'time', 'status', 'rx')
+plot = csv_to_kaplan_meier_plot('http://www-eio.upc.edu/~pau/cms/rdata/csv/survival/colon.csv', 'time', 'status', 'rx')
 plotly.offline.iplot(plot)
 ```
 
